@@ -1,0 +1,8 @@
+name: Greeting Workflow
+on: workflow_dispatch
+jobs:
+  greeting-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet
+        run: echo "Hola, Amigos"
